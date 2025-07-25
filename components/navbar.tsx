@@ -82,40 +82,21 @@ export function Navbar() {
           </Link>
         </Button>
         <div className="relative group inline-block">
-          <Button
-            asChild
-            variant="ghost"
-            size="icon"
-            className="text-foreground hover:text-primary"
-          >
-            <a href="mailto:rp13261@example.com" aria-label="Email">
+          <div className="flex items-center gap-3 p-3 rounded-lg bg-muted shadow-md hover:shadow-lg transition-all duration-300">
+            <Link
+              href="mailto:rp13261@gmail.com"
+              aria-label="Send Email"
+              className="flex items-center justify-center p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
+            >
               <Mail className="h-5 w-5" />
-            </a>
-          </Button>
-          <span
-            className="
-    absolute 
-    left-1/2 
-    -translate-x-1/2 
-    top-full 
-    mt-2 
-    px-3 
-    py-1 
-    bg-gray-900 
-    text-sm 
-    text-white 
-    rounded 
-    shadow-lg 
-    opacity-0 
-    group-hover:opacity-100 
-    pointer-events-none 
-    transition 
-    whitespace-nowrap 
-    z-50
-  "
-          >
-            rp13261@example.com
-          </span>
+            </Link>
+            <Link
+              href="mailto:rp13261@gmail.com"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
+              rp13261@gmail.com
+            </Link>
+          </div>
         </div>
       </div>
     </motion.nav>

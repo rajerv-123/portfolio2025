@@ -81,7 +81,8 @@ export function Navbar() {
             <Linkedin className="h-5 w-5" />
           </Link>
         </Button>
-        <div className="relative group inline-block">
+        {/* Hide this section on small screens */}
+        <div className="hidden md:flex relative group inline-block">
           <div className="flex items-center gap-3 p-3 rounded-lg bg-muted shadow-md hover:shadow-lg transition-all duration-300">
             <Link
               href="mailto:rp13261@gmail.com"

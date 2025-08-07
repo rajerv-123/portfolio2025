@@ -3,6 +3,8 @@ import img2 from "../public/images/Screenshot 2025-07-25 140518.png";
 import hostelImage from "../public/images/Hostel.png";
 import cunsultency from "../public/images/cunsultency.png";
 import lms from "../public/images/lms.png"
+import multi from "../public/images/multi.png";
+import creativehub from "../public/images/creativehub.png";
 import { motion } from "framer-motion";
 import { ProjectCard } from "@/components/project-card";
 
@@ -48,16 +50,16 @@ const portfolioItems = [
     title: "CreativeHub",
     description:
       "Objective: Create a custom-coded landing page using HTML, CSS, and JavaScript for a creative agency.",
-    imageUrl: lms,
+    imageUrl: creativehub,
     demoLink: "https://creative-hub-one-xi.vercel.app/",
     repoLink: "https://github.com/rajerv-123/CreativeHub",
   },
   {
     id: 5,
-    title: "M<ulti-theme-switcher ",
+    title: "Multi-Theme Switcher",
     description:
       "Objective: This is a dynamic, responsive, and accessible <Header /> component built with React, React Router, and Tailwind CSS. It supports both desktop and mobile layouts, scroll awareness, and light/dark theming.",
-    imageUrl: lms,
+    imageUrl: multi,
     demoLink: "https://multi-theme-switcher-s2iv.vercel.app/",
     repoLink: "https://github.com/rajerv-123/multi-theme-switcher",
   },

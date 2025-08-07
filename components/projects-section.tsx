@@ -43,6 +43,25 @@ const portfolioItems = [
     demoLink: "#",
     repoLink: "#",
   },
+  {
+    id: 4,
+    title: "CreativeHub",
+    description:
+      "Objective: Create a custom-coded landing page using HTML, CSS, and JavaScript for a creative agency.",
+    imageUrl: lms,
+    demoLink: "https://creative-hub-one-xi.vercel.app/",
+    repoLink: "https://github.com/rajerv-123/CreativeHub",
+  },
+  {
+    id: 5,
+    title: "M<ulti-theme-switcher ",
+    description:
+      "Objective: This is a dynamic, responsive, and accessible <Header /> component built with React, React Router, and Tailwind CSS. It supports both desktop and mobile layouts, scroll awareness, and light/dark theming.",
+    imageUrl: lms,
+    demoLink: "https://multi-theme-switcher-s2iv.vercel.app/",
+    repoLink: "https://github.com/rajerv-123/multi-theme-switcher",
+  },
+
   // {
   //   id: 5,
   //   title: "Task Management App",
